@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 class="title">Formulaire de contact</h1>
+
+<form class="Keylogger">
+  <label class= "txt" for="email">Email:</label>
+  <input class = "box" type="email" id="email" name="email">
+  <label class="txt" for="pwd">Password:</label>
+  <input class = "box" type="password" id="pwd" name="pwd">
+</form>
+<button class = "box" onclick="AfficherPwd()">Afficher password</button>
+
+</body>
+</html>
+
+<style>
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 3%;
+
+}
+
+.txt {
+    margin-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.Keylogger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.box {
+    border-radius: 10%;
+    width: 150px;
+    height: 40px;
+    margin-top: 2% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+</style>
+
+<script type="text/javascript">
+    function AfficherPwd()
+    {
+        var action = document.getElementById('pwd').type
+
+        if (action == "text") {
+            document.getElementById('pwd').type = 'password';
+        }
+        if (action == "password") 
+        {
+            document.getElementById('pwd').type = 'text';
+        }
+    }
+
+</script>
