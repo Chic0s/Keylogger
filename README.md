@@ -96,7 +96,7 @@ Key.shift
 <97>
 ```
 
-![Password](https://user-images.githubusercontent.com/96829109/188645212-a15f0689-b7e3-4dca-8c1c-7dee335bc8ee.PNG)
+![Capture](https://user-images.githubusercontent.com/96829109/196785889-63e88f16-ab89-40ba-a295-06365daf1680.PNG)
 
 <p>
 On peut comprendre que une ou plusieurs lettres sont en majuscules car la touche Shift a été pressée.
@@ -114,6 +114,7 @@ Pour cela, j'ai du effectuer un tableau pour obtenir une concordance.
       <td>4</td>
       <td>5</td>
       <td>6</td>
+
       <td>7</td>
       <td>8</td>
       <td>9</td>
