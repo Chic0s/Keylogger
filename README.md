@@ -114,7 +114,6 @@ Pour cela, j'ai du effectuer un tableau pour obtenir une concordance.
       <td>4</td>
       <td>5</td>
       <td>6</td>
-
       <td>7</td>
       <td>8</td>
       <td>9</td>
